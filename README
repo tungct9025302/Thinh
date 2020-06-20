@@ -1,3 +1,8 @@
 Tạo 1 factory produce food with material and stage to make
-Cow,Pig,FirstFactory,SecondFactory,AbstractForMeat,AbstactForFactory
-Abstact:Meat,Factory
+Cow,Pig,FirstFactory,SecondFactory,AbstractForMeat,AbstactForFactory,Client
+Abstact:Meat(for Cow and Pig),Factory(for 1st and 2nd Factory)
+
+How to do it?
+1.Create AbstractFactory with many factories extend
+2.Create classes that have info for those factories (could have another class or abstract class that is extended by these classes)
+3.Client will call abstract factory though a var.Next,we decide which factory to replace for that var. Then We will call methods that we need. 
