@@ -1,1 +1,3 @@
-
+Tạo 1 factory produce food with material and stage to make
+Cow,Pig,FirstFactory,SecondFactory,AbstractForMeat,AbstactForFactory
+Abstact:Meat,Factory
