@@ -8,4 +8,4 @@ How to do it?
 2. Classes <extends> an abstract class,which will call the interface with an abstract method ,also have a method which contains the var to define for the previous method and use for calling methods in the (4) classes
 3.The extended classes will define the above abstract method and return it with one of those classes in (4)
 4.The classes <implements> the interface will define methods 
-5.The demo will call the abstract class(2) through a var, it could have some methods to call .The if else will choose what classes will that var be. The main will call those methods or if else.
+5.The demo will call the abstract class(2) through a var, it could have some methods to call .The if else will choose what classes in 3 will that var be. The main will call those methods or if else.
