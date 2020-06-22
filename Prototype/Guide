@@ -1,1 +1,6 @@
-
+Use when: When your objects have dozens of fields and hundreds of possible configurations, cloning them might serve as an alternative to subclassing.
+Components:Classes(extends) an abstract class,demo
+How to do it?
+- Make an abstract class that is extended by many subclasses(Subclass must have more details than).The abstract class must have a clone abstract method,and will cotains common variables,a constructor and a detailed constructor to define which subclasses will be chosen and also define the previous variables
+- The classes that extend will be the same like the abstract class, but it will have its own vars and constructors as also define clone method where it will return.
+-The demo will contain  the constructors of classes that extend and give specific numbers for each var in parent class.
