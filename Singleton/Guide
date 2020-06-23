@@ -1,1 +1,4 @@
-
+Must do: hide the constructor and implement a static creation method.
+How to do it?
+1. Use private,static for constructors in which class you want to create singleton, and then create a get instance method for it (this is the only way to access in this class) (This class could be final)
+2. The demo class will call the constructor of the (1) class through the get instance method
